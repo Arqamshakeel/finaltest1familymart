@@ -77,7 +77,7 @@ import Autocomplete from "@material-ui/lab/Autocomplete";
 import ShowWithSearch2 from "../products/ShowWithSearch2";
 import ShowExpired from "../products/ShowExpired";
 import CartScreen from "../cart/CartScreen";
-const socket = io.connect("https://familymart.gq/api");
+const socket = io.connect("https://familymart.gq");
 // axios.defaults.baseURL = "https://familymart.gq/api/";
 // const socket = io.connect(
 //   "http://ec2-18-224-94-239.us-east-2.compute.amazonaws.com:4001"
